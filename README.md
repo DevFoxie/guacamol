@@ -16,7 +16,7 @@ To get started with our FC website, follow these steps:
 2. Install the necessary dependencies by running `npm install`.
 3. Configure the website settings, such as FC name, server, and logo, in the `config.js` file.
 4. Customize the website content by editing the Markdown files in the `content` directory.
-5. Build the website by running `npm run build`.
+5. Build the website by running `npm run build`.  
 6. Deploy the generated files to your web server or hosting platform.
 
 ## Contributing
