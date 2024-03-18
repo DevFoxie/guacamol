@@ -51,7 +51,7 @@ export default function Home() {
             great again.
           </h1>
           <h2 className={subtitle({ class: "mt-4" })}>
-            & join us on this journey..
+            & join us on this journey...
           </h2>
         </div>
 
