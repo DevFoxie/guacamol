@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import { title } from "@/components/primitives";
 import Image from "next/image";
@@ -17,7 +17,7 @@ export default function MembersPage() {
     },
     {
       name: "Illizael Lamperouge",
-      description: "Prophet of Guaca'Mol & Tank Chad",
+      description: "Prophet of GuacaMol & Tank Chad",
       job: "Main Job: Gunbreaker",
       imageSrc: "/images/home/home_1.png",
       link: "https://na.finalfantasyxiv.com/lodestone/character/29849764/",
@@ -38,20 +38,23 @@ export default function MembersPage() {
     },
     {
       name: "Aalyaah Maki",
-      description: "Proud Sprout aka 'the marauder' ",
+      description: "Proud Sprout aka The Marauder ",
       job: "Main Job: Monk",
       imageSrc: "/images/home/home_1.png",
       link: "https://na.finalfantasyxiv.com/lodestone/character/52109777/",
     },
-
   ];
 
   const handlePrevCard = () => {
-    setCurrentCard((prevCard) => (prevCard === 0 ? cards.length - 1 : prevCard - 1));
+    setCurrentCard((prevCard) =>
+      prevCard === 0 ? cards.length - 1 : prevCard - 1
+    );
   };
 
   const handleNextCard = () => {
-    setCurrentCard((prevCard) => (prevCard === cards.length - 1 ? 0 : prevCard + 1));
+    setCurrentCard((prevCard) =>
+      prevCard === cards.length - 1 ? 0 : prevCard + 1
+    );
   };
 
   const { name, description, job, imageSrc, link } = cards[currentCard];
@@ -121,17 +124,15 @@ export default function MembersPage() {
             />
           </CardItem>
           <div className="flex justify-between items-center mt-20">
-            <Link
-            href={link}
-            >
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            See on Lodestone
-          </CardItem>
-          </Link>
+            <Link href={link}>
+              <CardItem
+                translateZ={20}
+                as="button"
+                className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+              >
+              See on Lodestone
+              </CardItem>
+            </Link>
 
             <CardItem
               translateZ={20}
