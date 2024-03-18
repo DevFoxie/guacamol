@@ -16,6 +16,10 @@ export const siteConfig = {
       label: "Members",
       href: "/members",
     },
+	{
+	  label: "Events",
+	  href: "/events",
+	}
 	],
 	navMenuItems: [
 		{

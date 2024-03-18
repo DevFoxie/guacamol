@@ -5,6 +5,7 @@ import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 import Link from "next/link";
+
 export default function MembersPage() {
   const [currentCard, setCurrentCard] = useState(0);
   const cards = [

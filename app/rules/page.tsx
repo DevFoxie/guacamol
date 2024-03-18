@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { title } from "@/components/primitives";
+import { Button } from "@nextui-org/button";
 
 export default function RulesPage() {
 	return (
@@ -17,6 +18,8 @@ export default function RulesPage() {
 				<p style={{ fontSize: "1.2rem", marginTop: 20 }}><span className="text-pink-500">Helping:</span> We encourage all members to help each other out. If you need help with something, don&apos;t hesitate to ask in the FC chat.</p>
 				<p style={{ fontSize: "1.2rem", marginTop: 20 }}><span className="text-pink-500">Chat:</span> Keep the FC chat friendly and respectful. No spamming, advertising, or any form of inappropriate content.</p>
 				<p style={{ fontSize: "1.2rem", marginTop: 20 }}><span className="text-pink-500">Discord:</span> We have a Discord server for the FC. We encourage all members to join and participate in the server.</p>
+				{/* A button to the discord link */}
+				<Button href="https://discord.gg/juW79DrrvT" color= "danger" className="mt-4">Join our Discord</Button>
 				<p style={{ fontSize: "1.2rem", marginTop: 20 }}><span className="text-pink-500">Having fun</span> And most importantly we encourage all members to enjoy their time in the FC and to be happy!</p>
 			</div>
 		</div>

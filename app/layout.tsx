@@ -52,7 +52,7 @@ export default function RootLayout({
 								title="nextui.org homepage"
 							>
 								<span className="text-default-600">Powered by</span>
-								<p className="text-primary">DevFoxie</p>
+								<p className="text-pink-500">DevFoxie</p>
 							</Link>
 						</footer>
 					</div>
