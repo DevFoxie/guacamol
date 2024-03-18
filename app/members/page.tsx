@@ -38,7 +38,7 @@ export default function MembersPage() {
     },
     {
       name: "Aalyaah Maki",
-      description: "Proud Sprout aka The Marauder",
+      description: "Proud Sprout aka The Marauderr",
       job: "Main Job: Monk",
       imageSrc: "/images/home/home_1.png",
       link: "https://na.finalfantasyxiv.com/lodestone/character/52109777/",
