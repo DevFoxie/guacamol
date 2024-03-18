@@ -8,7 +8,7 @@ export default function RulesPage() {
 		<div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
 			<div style={{ textAlign: "center" }}>
 				<div style={{ textAlign: "center", width: "100%", padding: "20px", border: "1px solid #ccc", borderRadius: "4px" }}>
-				<h1 className={title()} style={{ fontSize: "3rem", marginBottom: "2rem" }}>Guaca'Rules</h1>
+				<h1 className={title()} style={{ fontSize: "3rem", marginBottom: "2rem" }}>Guaca&apos; Rules</h1>
 				<p style={{ fontSize: "1.5rem" }}>Welcome to the FC Rules page!</p>
 				<p style={{ fontSize: "1.2rem" }}>Here you can find all the rules and guidelines for the FC.</p>
 				</div>

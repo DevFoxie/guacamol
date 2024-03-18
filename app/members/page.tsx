@@ -38,7 +38,7 @@ export default function MembersPage() {
     },
     {
       name: "Aalyaah Maki",
-      description: "Proud Sprout aka The Marauder ",
+      description: "Proud Sprout aka The Marauder",
       job: "Main Job: Monk",
       imageSrc: "/images/home/home_1.png",
       link: "https://na.finalfantasyxiv.com/lodestone/character/52109777/",
@@ -83,7 +83,7 @@ export default function MembersPage() {
               className={title()}
               style={{ fontSize: "3rem", marginBottom: "2rem" }}
             >
-              Guaca'Members
+              Guaca&apos; Members
             </h1>
             <p style={{ fontSize: "1.5rem" }}>Welcome to the FC Member page!</p>
             <p style={{ fontSize: "1.2rem" }}>
