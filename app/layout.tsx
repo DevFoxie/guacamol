@@ -49,7 +49,7 @@ export default function RootLayout({
 								isExternal
 								className="flex items-center gap-1 text-current"
 								href="#"
-								title="nextui.org homepage"
+								title="devfoxie.com - Software Engineer"
 							>
 								<span className="text-default-600">Powered by</span>
 								<p className="text-pink-500">DevFoxie</p>

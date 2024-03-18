@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useRef } from "react";
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
@@ -40,16 +40,20 @@ export default function Home() {
         />
       </div>
 
-	  <HomeCarousel images={["/images/home/home_1.png", "/images/home/home_2.png", "/images/home/home_3.png"]} />
+      <HomeCarousel
+        images={[
+          "/images/home/home_1.png",
+          "/images/home/home_2.png",
+          "/images/home/home_3.png",
+        ]}
+      />
 
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
           <h1 className={title()}>Make&nbsp;</h1>
           <h1 className={title({ color: "violet" })}>FFXIV&nbsp;</h1>
           <br />
-          <h1 className={title()}>
-            great again.
-          </h1>
+          <h1 className={title()}>great again.</h1>
           <h2 className={subtitle({ class: "mt-4" })}>
             & join us on this journey...
           </h2>
@@ -57,8 +61,7 @@ export default function Home() {
 
         <div className="flex gap-3">
           <Link
-            isExternal
-            href={siteConfig.links.rules}
+            href="/rules"
             className={buttonStyles({
               color: "primary",
               radius: "full",
@@ -68,12 +71,16 @@ export default function Home() {
             Rules
           </Link>
           <Link
-            isExternal
             className={buttonStyles({ variant: "bordered", radius: "full" })}
-            href={siteConfig.links.members}
+            href="/members"
           >
-            
             Members
+          </Link>
+          <Link
+            className={buttonStyles({ variant: "bordered", radius: "full" })}
+            href="/events"
+          >
+            Events
           </Link>
         </div>
 

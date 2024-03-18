@@ -8,18 +8,18 @@ export const siteConfig = {
 			label: "Home",
 			href: "/",
 		},
-    {
-      label: "Rules",
-      href: "/rules",
-    },
-    {
-      label: "Members",
-      href: "/members",
-    },
-	{
-	  label: "Events",
-	  href: "/events",
-	}
+		{
+			label: "Rules",
+			href: "/rules",
+		},
+		{
+			label: "Members",
+			href: "/members",
+		},
+		{
+			label: "Events",
+			href: "/events",
+		}
 	],
 	navMenuItems: [
 		{
@@ -34,11 +34,15 @@ export const siteConfig = {
 			label: "Members",
 			href: "/members",
 		},
+		{
+			label: "Events",
+			href: "/events",
+		}
 	],
 	links: {
-		rules : "/rules",
-		members : "/members",
+		rules: "/rules",
+		members: "/members",
 		discord: "https://discord.gg/juW79DrrvT",
-    	sponsor: "https://fr.finalfantasyxiv.com/lodestone/freecompany/9237023573225399146/"
+		sponsor: "https://fr.finalfantasyxiv.com/lodestone/freecompany/9237023573225399146/"
 	},
 };
