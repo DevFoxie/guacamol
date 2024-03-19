@@ -43,7 +43,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <img src="/images/home/logo.png" alt="logo" className="w-32 " />
+            <img src="/images/home/logo.gif" alt="logo" className="w-20 mt-3" />
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
